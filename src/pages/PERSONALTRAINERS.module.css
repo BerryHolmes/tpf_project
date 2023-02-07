@@ -1,0 +1,164 @@
+.fitness {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bunch {
+  margin: 0;
+}
+.fitnessBunch,
+.socials {
+  position: absolute;
+  width: 182px;
+  height: 102px;
+}
+.fitnessBunch {
+  top: 0;
+  left: 0;
+  line-height: 102.5%;
+  display: inline-block;
+}
+.socials {
+  top: 2588px;
+  left: 857px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}
+.trainerChild {
+  position: absolute;
+  top: -3px;
+  left: -12px;
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+}
+.trainerItem {
+  position: absolute;
+  top: 0;
+  left: 255px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  width: 878px;
+  height: 206px;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 19px;
+  left: 291px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 801px;
+  height: 160px;
+}
+.trainer,
+.trainer1,
+.trainer2 {
+  position: absolute;
+  top: 2178px;
+  left: 376px;
+  width: 1133px;
+  height: 206px;
+}
+.trainer1,
+.trainer2 {
+  top: 1815px;
+}
+.trainer2 {
+  top: 1433px;
+}
+.trainersBackgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1229px;
+  object-fit: cover;
+}
+.healthiconsuiUserProfileOu {
+  width: 80px;
+  position: absolute;
+  top: 35px;
+  left: 1679px;
+  cursor: pointer;
+}
+.fitnessBunch2 {
+  position: absolute;
+  top: 0;
+  left: -42.11%;
+  line-height: 102.5%;
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 49px;
+  left: 145px;
+  width: 76px;
+  height: 60px;
+}
+.home,
+.listOfGyms {
+  top: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+.home {
+  position: absolute;
+  left: 0;
+}
+.listOfGyms {
+  left: 117px;
+}
+.aboutUs,
+.listOfGyms,
+.menus {
+  position: absolute;
+}
+.aboutUs {
+  top: 0;
+  left: 309px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menus {
+  top: 58px;
+  left: 752px;
+  width: 417px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.personalTrainers1 {
+  position: absolute;
+  top: 428px;
+  left: 413px;
+  font-size: var(--font-size-8xl);
+  font-weight: 800;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  width: 1059px;
+  height: 373px;
+}
+.trainersMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1229px;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}
+.personalTrainers {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2925px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

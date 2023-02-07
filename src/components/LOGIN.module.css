@@ -1,0 +1,78 @@
+.logInChild,
+.logInItem {
+  position: absolute;
+  top: 43px;
+  left: 43px;
+  background-color: var(--color-gold);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  width: 549px;
+  height: 558px;
+  mix-blend-mode: normal;
+}
+.logInItem {
+  top: 32px;
+  left: 32px;
+  background-color: var(--color-gray-100);
+}
+.logIn1 {
+  position: absolute;
+  top: 187px;
+  left: 234px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 145px;
+  height: 46px;
+}
+.facebookLogin,
+.googleLogin {
+  width: 318px;
+  position: absolute;
+  top: 337px;
+  left: 148px;
+}
+.facebookLogin {
+  top: 270px;
+}
+.pngwing1Icon,
+.pngwing2Icon {
+  position: absolute;
+  left: 163px;
+  width: 33px;
+  object-fit: cover;
+}
+.pngwing1Icon {
+  top: 352px;
+  height: 27px;
+  mix-blend-mode: normal;
+}
+.pngwing2Icon {
+  top: 281px;
+  height: 33px;
+}
+.continueWithFacebook,
+.continueWithGoogle {
+  position: absolute;
+  top: 284px;
+  left: 196px;
+  display: inline-block;
+  width: 256px;
+  height: 30px;
+}
+.continueWithGoogle {
+  top: 348px;
+  width: 226px;
+  height: 22px;
+}
+.logIn {
+  position: relative;
+  background-color: #242322;
+  width: 620px;
+  height: 637px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}

@@ -1,0 +1,1268 @@
+.subscribeBackground,
+.subscribeBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1920px;
+  height: 1096px;
+}
+.subscribeBox {
+  top: 244px;
+  left: 170px;
+  border-radius: 0 0 var(--br-lg) var(--br-lg);
+  background-color: var(--color-gold);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 636px;
+  height: 355px;
+}
+.chattingComment {
+  position: absolute;
+  height: 5.47%;
+  width: 3.47%;
+  top: 43.98%;
+  right: 68.98%;
+  bottom: 50.55%;
+  left: 27.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.subscribebutton {
+  width: 180px;
+  position: absolute;
+  top: 478px;
+  left: 250px;
+}
+.subscribeChild,
+.subscribeItem {
+  position: absolute;
+  top: 452px;
+  left: 521px;
+  width: 245px;
+  height: 234px;
+  mix-blend-mode: hue;
+}
+.subscribeItem {
+  top: 330px;
+  left: 606px;
+  width: 332px;
+  height: 295px;
+  opacity: 0.8;
+}
+.subscribe1,
+.subscribeToOur {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  font-weight: 600;
+}
+.subscribeToOur {
+  top: 276px;
+  left: 251px;
+  font-size: 33px;
+  line-height: 54px;
+}
+.emailFieldFormgroup {
+  width: 421px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 370px;
+  left: 250px;
+}
+.fitness {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bunch {
+  margin: 0;
+}
+.fitnessBunch,
+.socials {
+  position: absolute;
+  width: 182px;
+  height: 102px;
+}
+.fitnessBunch {
+  top: 0;
+  left: 0;
+  line-height: 102.5%;
+  display: inline-block;
+}
+.socials {
+  top: 686px;
+  left: 826px;
+  cursor: pointer;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}
+.communityBackground,
+.subscribe {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+}
+.subscribe {
+  top: 6145px;
+  height: 1096px;
+  font-size: 17px;
+}
+.communityBackground {
+  top: 0;
+  background-color: var(--color-gold);
+  height: 835px;
+}
+.tweetBackgroundIcon {
+  position: absolute;
+  top: 179px;
+  left: 324px;
+  border-radius: var(--br-2xs);
+  width: 1228px;
+  height: 536px;
+  object-fit: cover;
+}
+.tweet {
+  position: absolute;
+  top: 526px;
+  left: 569px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 59px 9px rgba(0, 0, 0, 0.05);
+  width: 738px;
+  height: 250px;
+}
+.avatarIcon,
+.textOfTweet {
+  position: absolute;
+  left: 602px;
+}
+.avatarIcon {
+  top: 551px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.textOfTweet {
+  top: 636px;
+  display: inline-block;
+  width: 679px;
+  height: 82px;
+}
+.slide1Icon,
+.slide2Icon {
+  position: absolute;
+  top: 224px;
+  left: 1677px;
+  border-radius: var(--br-2xs);
+  width: 243px;
+  height: 446px;
+  object-fit: cover;
+}
+.slide1Icon {
+  left: 0;
+  width: 210px;
+}
+.hijessi {
+  margin: 0;
+  color: var(--color-gray-200);
+}
+.jessicaJonesHijessiContainer {
+  position: absolute;
+  top: 563px;
+  left: 698px;
+  display: inline-block;
+  width: 214px;
+  height: 62px;
+}
+.span {
+  color: var(--color-black);
+}
+.twitterForAndroid {
+  color: #24a3cb;
+}
+.twitterForAndroidContainer {
+  position: absolute;
+  top: 729px;
+  left: 605px;
+  display: inline-block;
+  width: 394px;
+  height: 34px;
+  color: var(--color-gray-200);
+}
+.ourCommunity {
+  position: absolute;
+  top: 66px;
+  left: 676px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-open-sans);
+  text-align: center;
+  width: 524px;
+  height: 54px;
+}
+.tweetAndCommunity {
+  position: absolute;
+  top: 5311px;
+  left: 0;
+  width: 1920px;
+  height: 835px;
+  text-align: left;
+  font-family: var(--font-poppins);
+}
+.doWhatBringsJoyBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 1920px;
+  height: 1119px;
+}
+.doWhatBrings {
+  position: absolute;
+  top: 82px;
+  left: 720px;
+  font-size: var(--font-size-5xl);
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.discoverMore,
+.workoutPlans {
+  width: 300px;
+  position: absolute;
+  top: 967px;
+  left: 805px;
+  cursor: pointer;
+}
+.workoutPlans {
+  width: 172px;
+  top: 188px;
+  left: 1391px;
+}
+.gymMembership,
+.gymMembership1,
+.personalTrainer {
+  width: 172px;
+  position: absolute;
+  top: 195px;
+  left: 1016px;
+  cursor: pointer;
+}
+.gymMembership,
+.gymMembership1 {
+  left: 619px;
+}
+.gymMembership1 {
+  top: 188px;
+  left: 237px;
+}
+.discoverMore1,
+.top10 {
+  position: absolute;
+  top: 221px;
+  left: 282px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.discoverMore1 {
+  top: 987px;
+  left: 837px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 231px;
+  height: 30px;
+}
+.gymMembership2 {
+  position: absolute;
+  top: 211px;
+  left: 641px;
+}
+.personalTrainer1,
+.workoutPlans1 {
+  position: absolute;
+  top: 211px;
+  left: 1060px;
+}
+.workoutPlans1 {
+  top: 204px;
+  left: 1435px;
+}
+.yogaImgIcon,
+.yogaRec {
+  position: absolute;
+  left: 230px;
+  width: 434px;
+}
+.yogaImgIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.yogaRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.calistheImgIcon,
+.calistheRec {
+  position: absolute;
+  left: 738px;
+  width: 434px;
+}
+.calistheImgIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.calistheRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.cardioRec,
+.cardioRectaIcon {
+  position: absolute;
+  left: 1246px;
+  width: 434px;
+}
+.cardioRectaIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.cardioRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.yogaClasses {
+  position: absolute;
+  top: 711px;
+  left: 257px;
+}
+.calisthenicsCourse,
+.cardio,
+.session {
+  position: absolute;
+  top: 712px;
+  left: 758px;
+}
+.cardio,
+.session {
+  left: 1273px;
+}
+.session {
+  top: 711px;
+  left: 514px;
+}
+.membershipIncluded {
+  position: absolute;
+  top: 702px;
+  left: 996px;
+  display: inline-block;
+  width: 169px;
+  height: 28px;
+}
+.membershipIncluded1 {
+  position: absolute;
+  top: 703px;
+  left: 1524px;
+}
+.textCalisthe,
+.textYoga {
+  color: var(--color-gray-300);
+}
+.textYoga {
+  position: absolute;
+  top: 761px;
+  left: 246px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 329px;
+  height: 52px;
+}
+.textCalisthe {
+  top: 756px;
+  left: 751px;
+  width: 330px;
+  height: 44px;
+}
+.knowMore,
+.knowMore1,
+.knowMore2,
+.textCalisthe,
+.textCardio {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+}
+.textCardio {
+  top: 756px;
+  left: 1259px;
+  color: var(--color-gray-300);
+  width: 352px;
+  height: 44px;
+}
+.knowMore,
+.knowMore1,
+.knowMore2 {
+  text-decoration: underline;
+  width: 115px;
+  cursor: pointer;
+}
+.knowMore {
+  top: 827px;
+  left: 549px;
+  height: 27px;
+}
+.knowMore1,
+.knowMore2 {
+  top: 830px;
+  left: 1058px;
+}
+.knowMore2 {
+  left: 1563px;
+}
+.classesSection,
+.top3Background {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+}
+.classesSection {
+  top: 3422px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  height: 1119px;
+  cursor: pointer;
+}
+.top3Background {
+  top: 0;
+  height: 1005px;
+  object-fit: cover;
+}
+.top3Child {
+  position: absolute;
+  top: 156px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.top3Item {
+  position: absolute;
+  top: 152px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.top3Inner {
+  position: absolute;
+  top: 421px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 417px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 686px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.top3Child1 {
+  position: absolute;
+  top: 682px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.gymNo1,
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  position: absolute;
+  top: 244px;
+  left: 884px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 509px;
+}
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 774px;
+  left: 878px;
+}
+.katowice,
+.katowice1,
+.krakw {
+  top: 250px;
+  left: 1094px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: left;
+}
+.katowice,
+.katowice1 {
+  top: 516px;
+  left: 1084px;
+}
+.katowice1 {
+  top: 783px;
+}
+.icroundNavigateNext {
+  width: 33px;
+  position: absolute;
+  top: 251px;
+  left: 1230px;
+}
+.icroundNavigateNext1,
+.icroundNavigateNext2,
+.top3 {
+  width: 33px;
+  position: absolute;
+  top: 519px;
+  left: 1230px;
+}
+.icroundNavigateNext2,
+.top3 {
+  top: 784px;
+}
+.top3 {
+  top: 2417px;
+  left: -1px;
+  width: 1920px;
+  height: 1005px;
+  font-size: var(--font-size-3xl);
+}
+.addYourGymBackground {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 1929px;
+  height: 741px;
+  object-fit: cover;
+}
+.expIcon,
+.fitnesFreaksIcon,
+.gymsIcon,
+.opinionsIcon {
+  position: absolute;
+  top: 355px;
+  left: 1415px;
+  width: 263px;
+  height: 263px;
+}
+.expIcon,
+.fitnesFreaksIcon,
+.gymsIcon {
+  top: 350px;
+  left: 1032px;
+}
+.expIcon,
+.fitnesFreaksIcon {
+  left: 646px;
+}
+.expIcon {
+  top: 352px;
+  left: 258px;
+}
+.addYourNeighbourhood {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.loremIpsumDolorContainer {
+  position: absolute;
+  top: 239px;
+  left: 579px;
+  color: var(--color-white);
+}
+.b,
+.b1,
+.k,
+.k1 {
+  position: absolute;
+  top: 465px;
+  left: 358px;
+  font-size: var(--font-size-4xl);
+  display: inline-block;
+  text-align: left;
+  width: 76px;
+  height: 60px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.b1,
+.k,
+.k1 {
+  left: 750px;
+  width: 88px;
+}
+.b1,
+.k1 {
+  left: 1135px;
+  width: 102px;
+}
+.k1 {
+  left: 1514px;
+  width: 76px;
+}
+.happyFitnessFreaksContainer,
+.yearsOfExperienceContainer {
+  position: absolute;
+  top: 517px;
+  left: 338px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.happyFitnessFreaksContainer {
+  left: 708px;
+}
+.addedGyms,
+.opinions {
+  position: absolute;
+  top: 533px;
+  left: 1102px;
+}
+.opinions {
+  left: 1499px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.simpleLineIconscalender {
+  position: absolute;
+  top: 402px;
+  left: 368px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.antDesignbarChartOutlinedIcon,
+.carbonmapIcon,
+.gridiconshistory {
+  position: absolute;
+  top: 401px;
+  left: 754px;
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.carbonmapIcon,
+.gridiconshistory {
+  left: 1139px;
+}
+.gridiconshistory {
+  top: 402px;
+  left: 1531px;
+  width: 35px;
+  height: 35px;
+}
+.infoAbNeighbourhood {
+  position: absolute;
+  top: 1685px;
+  left: -1px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 1921px;
+  height: 733px;
+}
+.ideaOfWebsiteBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #272725;
+  width: 1920px;
+  height: 458px;
+}
+.giveOpinionChild {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 308px;
+  height: 308px;
+}
+.giveAnOpinion,
+.loremIpsumDolor1 {
+  position: absolute;
+  top: 133px;
+  left: 56px;
+  display: inline-block;
+  width: 187px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor1 {
+  top: 180px;
+  left: 43px;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.planeIcon {
+  position: absolute;
+  top: 65px;
+  left: 129px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.giveOpinion {
+  position: absolute;
+  top: 111px;
+  left: 1383px;
+  width: 300px;
+  height: 300px;
+}
+.loremIpsumDolor2,
+.manageYourCarnets {
+  position: absolute;
+  top: 126px;
+  left: 24px;
+  display: inline-block;
+  width: 253px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor2 {
+  top: 185px;
+  left: 43px;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 3.03%;
+  width: 1.11%;
+  top: 26.67%;
+  right: 46.52%;
+  bottom: 70.3%;
+  left: 52.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 9.09%;
+  width: 17.04%;
+  top: 23.67%;
+  right: 40.96%;
+  bottom: 67.25%;
+  left: 42%;
+}
+.listOfTheGymsChild,
+.manageCarnets {
+  position: absolute;
+  top: 111px;
+  left: 237px;
+  width: 300px;
+  height: 300px;
+}
+.listOfTheGymsChild {
+  top: 0;
+  left: 0;
+}
+.listOfThe,
+.loremIpsumDolor3 {
+  position: absolute;
+  top: 128px;
+  left: 55px;
+  display: inline-block;
+  width: 190px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor3 {
+  top: 184px;
+  left: 51px;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.variousCup {
+  position: absolute;
+  height: 15%;
+  width: 16.67%;
+  top: 23.33%;
+  right: 39.33%;
+  bottom: 61.67%;
+  left: 44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.listOfTheGyms {
+  position: absolute;
+  top: 121px;
+  left: 810px;
+  width: 300px;
+  height: 300px;
+}
+.ideaOfOur {
+  position: absolute;
+  top: 30px;
+  left: 744px;
+  font-size: 45px;
+  color: var(--color-white);
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.ideaAboutWebsite {
+  position: absolute;
+  top: 1227px;
+  left: 0;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 1920px;
+  height: 458px;
+  font-size: var(--font-size-lg);
+}
+.mainBackgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1227px;
+  object-fit: cover;
+}
+.home,
+.listOfGyms {
+  top: 0;
+  font-weight: 600;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.home {
+  position: absolute;
+  left: 0;
+}
+.listOfGyms {
+  left: 117px;
+  cursor: pointer;
+}
+.aboutUs,
+.listOfGyms,
+.menus {
+  position: absolute;
+}
+.aboutUs {
+  top: 0;
+  left: 309px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menus {
+  top: 63px;
+  left: 752px;
+  width: 417px;
+  height: 34px;
+  text-align: left;
+}
+.avatarIconLogin {
+  width: 80px;
+  position: absolute;
+  top: 40px;
+  left: 1679px;
+  cursor: pointer;
+}
+.youWantToContainer {
+  position: absolute;
+  top: 431px;
+  left: 385px;
+  font-size: 75px;
+  font-weight: 800;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor4 {
+  position: absolute;
+  top: 682px;
+  left: 685px;
+  font-size: 18px;
+  display: inline-block;
+  width: 550px;
+  height: 47px;
+}
+.discoverButton {
+  width: 214px;
+  position: absolute;
+  top: 825px;
+  left: 854px;
+}
+.fitnessBunch2 {
+  position: absolute;
+  top: 0;
+  left: -42.11%;
+  line-height: 102.5%;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 49px;
+  left: 145px;
+  width: 76px;
+  height: 60px;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-laila);
+}
+.first,
+.membershipBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+}
+.first {
+  height: 1227px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.membershipBackground {
+  background-color: var(--color-gray-100);
+  height: 770px;
+}
+.easyAndFast {
+  position: absolute;
+  top: 121px;
+  left: 862px;
+}
+.manageYourMembership {
+  position: absolute;
+  top: 67px;
+  left: 625px;
+  font-size: var(--font-size-5xl);
+}
+.loremIpsumDolorContainer1,
+.pickAGym1 {
+  position: absolute;
+  top: 7px;
+  left: 107.34px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 223.36px;
+  height: 27.75px;
+}
+.loremIpsumDolorContainer1 {
+  top: 40.3px;
+  width: 453.66px;
+  height: 55.49px;
+}
+.mapsPin {
+  position: absolute;
+  height: 62.5%;
+  width: 11.88%;
+  top: 18.75%;
+  right: 85.44%;
+  bottom: 18.75%;
+  left: 2.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.pickAGym,
+.progressChild,
+.progressIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 561px;
+  height: 96px;
+}
+.progressChild,
+.progressIcon {
+  width: 96px;
+}
+.progressChild {
+  top: 19.5px;
+  left: 38.95px;
+  width: 22.09px;
+  height: 54.5px;
+}
+.enjoyAndMake,
+.loremIpsumDolorContainer2 {
+  position: absolute;
+  top: 44px;
+  left: 110px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 313px;
+  height: 52px;
+}
+.enjoyAndMake {
+  top: 9px;
+  width: 202px;
+  height: 22px;
+}
+.progress {
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 423px;
+  height: 96px;
+}
+.loremIpsumDolorContainer3,
+.makePayment {
+  position: absolute;
+  top: 46.68px;
+  left: 107.34px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 453.66px;
+  height: 55.49px;
+}
+.makePayment {
+  top: 13.38px;
+  width: 172.03px;
+  height: 27.75px;
+}
+.financeCreditcardAdd {
+  position: absolute;
+  height: 58.72%;
+  width: 11.88%;
+  top: 17.62%;
+  right: 85.09%;
+  bottom: 23.66%;
+  left: 3.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.membershipInfo,
+.payment {
+  position: absolute;
+  top: 149px;
+  left: 0;
+  width: 561px;
+  height: 102.17px;
+}
+.membershipInfo {
+  top: 275px;
+  left: 351px;
+  height: 406px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.cardFrontChild {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-100);
+  width: 455px;
+  height: 255px;
+}
+.fitnessBunch3,
+.johnDoe,
+.memberSince110322Container {
+  position: absolute;
+  top: 93px;
+  left: 57px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 343px;
+  height: 68px;
+}
+.johnDoe,
+.memberSince110322Container {
+  top: 188px;
+  left: 52px;
+  font-size: var(--font-size-base);
+  width: 77px;
+  height: 22px;
+}
+.memberSince110322Container {
+  top: 182px;
+  left: 313px;
+  font-size: var(--font-size-xs);
+  width: 97px;
+  height: 42px;
+}
+.cardFrontItem {
+  position: absolute;
+  top: -0.83px;
+  left: 0.83px;
+  width: 117.05px;
+  height: 37.7px;
+}
+.cardFrontInner,
+.lineIcon {
+  position: absolute;
+  top: 32px;
+  left: 1px;
+  width: 455.05px;
+  height: 22px;
+}
+.lineIcon {
+  top: -0.96px;
+  left: 1.72px;
+  width: 268.28px;
+  height: 77.96px;
+}
+.cardFrontChild1,
+.cardFrontChild2 {
+  position: absolute;
+  top: -0.82px;
+  left: -0.57px;
+  width: 143.57px;
+  height: 99.82px;
+}
+.cardFrontChild2 {
+  top: 5.01px;
+  left: 16px;
+  width: 437.17px;
+  height: 76.99px;
+}
+.cardFrontChild3,
+.cardFrontChild4 {
+  position: absolute;
+  top: -0.92px;
+  left: 1.6px;
+  width: 331.4px;
+  height: 146.92px;
+}
+.cardFrontChild4 {
+  top: 2px;
+  left: 2px;
+  width: 428.25px;
+  height: 111.97px;
+}
+.cardBackChild,
+.cardFront {
+  position: absolute;
+  height: 255px;
+}
+.cardFront {
+  top: 210px;
+  left: 933px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 456px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}
+.cardBackChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-200);
+  width: 455px;
+}
+.symbolsInstagram {
+  position: absolute;
+  height: 9.41%;
+  width: 5.86%;
+  top: 68.63%;
+  right: 47.11%;
+  bottom: 21.96%;
+  left: 47.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kodKreskowyIcon {
+  position: absolute;
+  top: 78px;
+  left: 80px;
+  width: 296px;
+  height: 65px;
+  object-fit: cover;
+}
+.twitterIcon {
+  position: relative;
+  width: 22.82px;
+  height: 19px;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-xs);
+}
+.comeToOurContainer {
+  position: absolute;
+  top: 209px;
+  left: 132px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 192px;
+  height: 42px;
+}
+.symbolsFacebook {
+  position: absolute;
+  height: 9.41%;
+  width: 5.86%;
+  top: 69.41%;
+  right: 73.48%;
+  bottom: 21.18%;
+  left: 20.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cardBack {
+  position: absolute;
+  top: 377px;
+  left: 1200px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 455px;
+  height: 255px;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-roboto);
+}
+.membershipSections {
+  position: absolute;
+  top: 4541px;
+  left: 0;
+  width: 1920px;
+  height: 770px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.homePage {
+  position: relative;
+  background-color: rgba(4, 4, 4, 0.84);
+  width: 100%;
+  height: 7241px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

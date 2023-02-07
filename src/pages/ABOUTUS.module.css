@@ -1,0 +1,125 @@
+.fitness {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bunch {
+  margin: 0;
+}
+.fitnessBunch {
+  position: absolute;
+  top: 959px;
+  left: 372px;
+  font-size: var(--font-size-3xl);
+  line-height: 102.5%;
+  display: inline-block;
+  width: 182px;
+  height: 102px;
+}
+.aboutUsImg {
+  position: absolute;
+  top: 334px;
+  left: 168px;
+  width: 579px;
+  height: 579px;
+  object-fit: cover;
+}
+.aboutUsBackground {
+  position: absolute;
+  top: 467px;
+  left: 869px;
+  border-radius: 40px;
+  background-color: rgba(33, 31, 31, 0.52);
+  width: 806px;
+  height: 446px;
+}
+.aboutUs1,
+.aboutUsText {
+  position: absolute;
+  font-weight: 800;
+  font-family: var(--font-roboto);
+}
+.aboutUsText {
+  top: 487px;
+  left: 909px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  width: 726px;
+  height: 315px;
+}
+.aboutUs1 {
+  top: 349px;
+  left: 913px;
+  font-size: 90px;
+  text-align: left;
+  display: inline-block;
+  width: 379px;
+  height: 94px;
+}
+.healthiconsuiUserProfileOu {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 1534px;
+  cursor: pointer;
+}
+.fitnessBunch2 {
+  position: absolute;
+  top: 0;
+  left: -42.11%;
+  line-height: 102.5%;
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 76px;
+  height: 60px;
+}
+.home,
+.listOfGyms {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+.listOfGyms {
+  left: 117px;
+}
+.aboutUs2 {
+  top: 0;
+  left: 309px;
+  font-weight: 600;
+}
+.aboutUs2,
+.menus,
+.navMenu {
+  position: absolute;
+}
+.menus {
+  top: 23px;
+  left: 607px;
+  width: 417px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.navMenu {
+  top: 35px;
+  left: 145px;
+  width: 1614px;
+  height: 80px;
+}
+.aboutUs {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1236px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}

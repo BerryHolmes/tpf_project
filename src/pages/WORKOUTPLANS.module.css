@@ -1,0 +1,137 @@
+.fitness {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bunch {
+  margin: 0;
+}
+.fitnessBunch,
+.socials {
+  position: absolute;
+  width: 182px;
+  height: 102px;
+}
+.fitnessBunch {
+  top: 0;
+  left: 0;
+  line-height: 102.5%;
+  display: inline-block;
+}
+.socials {
+  top: 2581px;
+  left: 857px;
+}
+.workoutBackground {
+  position: absolute;
+  top: 1390px;
+  left: 320px;
+  border-radius: 109px;
+  background-color: var(--color-gold);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  width: 1245px;
+  height: 473px;
+}
+.freeWorkoutPlans {
+  position: absolute;
+  top: 1458px;
+  left: 417px;
+  font-size: var(--font-size-7xl);
+  line-height: 124.5%;
+  display: flex;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  align-items: center;
+  justify-content: center;
+  width: 1068px;
+  height: 338px;
+}
+.workoutPlansBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1229px;
+  object-fit: cover;
+}
+.healthiconsuiUserProfileOu {
+  width: 80px;
+  position: absolute;
+  top: 35px;
+  left: 1679px;
+}
+.fitnessBunch2 {
+  position: absolute;
+  top: 0;
+  left: -42.11%;
+  line-height: 102.5%;
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 49px;
+  left: 145px;
+  width: 76px;
+  height: 60px;
+}
+.home,
+.listOfGyms {
+  top: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+.home {
+  position: absolute;
+  left: 0;
+}
+.listOfGyms {
+  left: 117px;
+}
+.aboutUs,
+.listOfGyms,
+.menus {
+  position: absolute;
+}
+.aboutUs {
+  top: 0;
+  left: 309px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menus {
+  top: 58px;
+  left: 752px;
+  width: 417px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.workoutPlans1 {
+  position: absolute;
+  top: 428px;
+  left: 413px;
+  font-size: var(--font-size-8xl);
+  font-weight: 800;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  width: 1059px;
+  height: 373px;
+}
+.workoutPlansMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1229px;
+  font-size: var(--font-size-2xl);
+}
+.workoutPlans {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2925px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}
