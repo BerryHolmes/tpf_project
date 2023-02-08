@@ -1,6 +1,8 @@
 import Google from "../img/google.png";
 import Facebook from "../img/facebook.png";
 import Github from "../img/github.png";
+import { Button } from "react-bootstrap";
+import styles from "../components/LOGIN.module.css";
 
 const Login = () => {
   const google = () => {
@@ -16,33 +18,30 @@ const Login = () => {
   };
 
   return (
-    <div className="login">
-      <h1 className="loginTitle">Choose a Login Method</h1>
-      <div className="wrapper">
-        <div className="left">
-          <div className="loginButton google" onClick={google}>
-            <img src={Google} alt="" className="icon" />
+
+    
+    
+     <div className={styles.logIn}>
+      <div className={styles.logInChild} />
+      <div className={styles.logInItem} />
+      <b className={styles.logIn1}>LOG IN</b>
+      <Button className={styles.googleLogin} variant="warning">
+      <div className="loginButton google" onClick={google}>
+           
             Google
           </div>
-          <div className="loginButton facebook" onClick={facebook}>
-            <img src={Facebook} alt="" className="icon" />
+
+        
+      </Button>
+      <Button className={styles.facebookLogin} variant="warning">
+      <div className="loginButton facebook" onClick={facebook}>
+          
             Facebook
           </div>
-          <div className="loginButton github" onClick={github}>
-            <img src={Github} alt="" className="icon" />
-            Github
-          </div>
-        </div>
-        <div className="center">
-          <div className="line" />
-          <div className="or">OR</div>
-        </div>
-        <div className="right">
-          <input type="text" placeholder="Username" />
-          <input type="text" placeholder="Password" />
-          <button className="submit">Login</button>
-        </div>
-      </div>
+      </Button>
+      <img className={styles.pngwing1Icon} alt="" src="../pngwing-1@2x.png" />
+      <img className={styles.pngwing2Icon} alt="" src="../pngwing-2@2x.png" />
+    
     </div>
   );
 };
