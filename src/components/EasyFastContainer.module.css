@@ -1,0 +1,316 @@
+.membershipBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1920px;
+  height: 770px;
+}
+.easyAndFast {
+  position: absolute;
+  top: 121px;
+  left: 862px;
+}
+.manageYourMembership {
+  position: absolute;
+  top: 67px;
+  left: 625px;
+  font-size: var(--font-size-6xl);
+}
+.progressChild,
+.progressIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96px;
+  height: 96px;
+}
+.progressChild {
+  top: 19.5px;
+  left: 38.95px;
+  width: 22.09px;
+  height: 54.5px;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.adipiscingElitUrna {
+  margin: 0;
+}
+.enjoyAndMake,
+.loremIpsumDolorContainer {
+  position: absolute;
+  top: 44px;
+  left: 110px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 313px;
+  height: 52px;
+}
+.enjoyAndMake {
+  top: 9px;
+  width: 202px;
+  height: 22px;
+}
+.progress {
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 423px;
+  height: 96px;
+}
+.loremIpsumDolorContainer1,
+.pickAGym1 {
+  position: absolute;
+  top: 7px;
+  left: 107.34px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 223.36px;
+  height: 27.75px;
+}
+.loremIpsumDolorContainer1 {
+  top: 40.3px;
+  width: 453.66px;
+  height: 55.49px;
+}
+.mapsPin {
+  position: absolute;
+  height: 62.5%;
+  width: 11.88%;
+  top: 18.75%;
+  right: 85.44%;
+  bottom: 18.75%;
+  left: 2.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.pickAGym {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 561px;
+  height: 96px;
+}
+.loremIpsumDolorContainer2,
+.makePayment {
+  position: absolute;
+  top: 46.68px;
+  left: 107.34px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 453.66px;
+  height: 55.49px;
+}
+.makePayment {
+  top: 13.38px;
+  width: 172.03px;
+  height: 27.75px;
+}
+.financeCreditcardAdd {
+  position: absolute;
+  height: 58.72%;
+  width: 11.88%;
+  top: 17.62%;
+  right: 85.09%;
+  bottom: 23.66%;
+  left: 3.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.membershipInfo,
+.payment {
+  position: absolute;
+  top: 149px;
+  left: 0;
+  width: 561px;
+  height: 102.17px;
+}
+.membershipInfo {
+  top: 275px;
+  left: 351px;
+  height: 406px;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+}
+.cardFrontChild {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-100);
+  width: 455px;
+  height: 255px;
+}
+.fitnessBunch,
+.johnDoe,
+.memberSince110322Container {
+  position: absolute;
+  top: 93px;
+  left: 57px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 343px;
+  height: 68px;
+}
+.johnDoe,
+.memberSince110322Container {
+  top: 188px;
+  left: 52px;
+  font-size: var(--font-size-base);
+  width: 77px;
+  height: 22px;
+}
+.memberSince110322Container {
+  top: 182px;
+  left: 313px;
+  font-size: var(--font-size-3xs);
+  width: 97px;
+  height: 42px;
+}
+.cardFrontItem {
+  position: absolute;
+  top: -0.83px;
+  left: 0.83px;
+  width: 117.05px;
+  height: 37.7px;
+}
+.cardFrontInner,
+.lineIcon {
+  position: absolute;
+  top: 32px;
+  left: 1px;
+  width: 455.05px;
+  height: 22px;
+}
+.lineIcon {
+  top: -0.96px;
+  left: 1.72px;
+  width: 268.28px;
+  height: 77.96px;
+}
+.cardFrontChild1,
+.cardFrontChild2 {
+  position: absolute;
+  top: -0.82px;
+  left: -0.57px;
+  width: 143.57px;
+  height: 99.82px;
+}
+.cardFrontChild2 {
+  top: 5.01px;
+  left: 16px;
+  width: 437.17px;
+  height: 76.99px;
+}
+.cardFrontChild3,
+.cardFrontChild4 {
+  position: absolute;
+  top: -0.92px;
+  left: 1.6px;
+  width: 331.4px;
+  height: 146.92px;
+}
+.cardFrontChild4 {
+  top: 2px;
+  left: 2px;
+  width: 428.25px;
+  height: 111.97px;
+}
+.cardBackChild,
+.cardFront {
+  position: absolute;
+  height: 255px;
+}
+.cardFront {
+  top: 210px;
+  left: 933px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 456px;
+  font-size: var(--font-size-8xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-post-no-bills-colombo-medium);
+}
+.cardBackChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-200);
+  width: 455px;
+}
+.symbolsInstagram {
+  position: absolute;
+  height: 9.41%;
+  width: 5.86%;
+  top: 68.63%;
+  right: 47.11%;
+  bottom: 21.96%;
+  left: 47.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kodKreskowyIcon {
+  position: absolute;
+  top: 78px;
+  left: 80px;
+  width: 296px;
+  height: 65px;
+  object-fit: cover;
+}
+.twitterIcon {
+  position: relative;
+  top: 175px;
+  left: 120px;
+  width: 22.82px;
+  height: 19px;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+}
+.comeToOurContainer {
+  position: absolute;
+  top: 209px;
+  left: 132px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 192px;
+  height: 42px;
+}
+.symbolsFacebook {
+  position: absolute;
+  height: 9.41%;
+  width: 5.86%;
+  top: 69.41%;
+  right: 73.48%;
+  bottom: 21.18%;
+  left: 20.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cardBack {
+  position: absolute;
+  top: 377px;
+  left: 1200px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 455px;
+  height: 255px;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-4xs);
+  font-family: var(--font-post-no-bills-colombo-medium);
+}
+.membershipSections {
+  position: relative;
+  width: 1920px;
+  height: 770px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

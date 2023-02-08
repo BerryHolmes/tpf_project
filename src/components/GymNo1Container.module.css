@@ -1,0 +1,131 @@
+.top3Child,
+.top3Inner,
+.top3Item {
+  position: absolute;
+  object-fit: cover;
+}
+.top3Child {
+  top: -6px;
+  left: -12px;
+  border-radius: var(--br-xl);
+  width: 1457px;
+  height: 182.14px;
+  cursor: pointer;
+}
+.top3Inner,
+.top3Item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 484.92px;
+  height: 158.14px;
+}
+.top3Inner {
+  top: 181.93px;
+  left: -12px;
+  border-radius: var(--br-xl);
+  width: 1457px;
+  height: 182.14px;
+  cursor: pointer;
+}
+.rectangleIcon {
+  top: 187.93px;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 484.92px;
+  height: 158.14px;
+}
+.rectangleIcon,
+.top3Child1,
+.top3Child2 {
+  position: absolute;
+  object-fit: cover;
+}
+.top3Child1 {
+  top: 369.86px;
+  left: -12px;
+  border-radius: var(--br-xl);
+  width: 1457px;
+  height: 182.14px;
+  cursor: pointer;
+}
+.top3Child2 {
+  top: 375.86px;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 484.92px;
+  height: 158.14px;
+}
+.gymNo1,
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  position: absolute;
+  top: 62.41px;
+  left: 532.75px;
+  display: inline-block;
+  width: 367.49px;
+  height: 34.04px;
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 250.33px;
+}
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 438.26px;
+  left: 519.71px;
+}
+.katowice,
+.katowice1,
+.krakw {
+  top: 66.66px;
+  left: 989.4px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: left;
+  width: 200.05px;
+  height: 24.11px;
+}
+.katowice,
+.katowice1 {
+  top: 255.3px;
+  left: 967.66px;
+  width: 239.2px;
+}
+.katowice1 {
+  top: 444.65px;
+}
+.icroundNavigateNext,
+.icroundNavigateNext1,
+.icroundNavigateNext2 {
+  width: 71.75872039794922px;
+  position: absolute;
+  top: 67.37px;
+  left: 1285.13px;
+}
+.icroundNavigateNext1,
+.icroundNavigateNext2 {
+  top: 257.43px;
+}
+.icroundNavigateNext2 {
+  top: 445.35px;
+}
+.top3 {
+  position: relative;
+  width: 1433px;
+  height: 534px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

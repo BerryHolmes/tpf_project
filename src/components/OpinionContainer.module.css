@@ -1,0 +1,152 @@
+.ideaOfWebsiteBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1920px;
+  height: 458px;
+}
+.giveOpinionChild {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 308px;
+  height: 308px;
+}
+.giveAnOpinion,
+.loremIpsumDolor {
+  position: absolute;
+  top: 133px;
+  left: 56px;
+  display: inline-block;
+  width: 187px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor {
+  top: 180px;
+  left: 43px;
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.planeIcon {
+  position: absolute;
+  top: 65px;
+  left: 129px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.giveOpinion {
+  position: absolute;
+  top: 111px;
+  left: 1383px;
+  width: 300px;
+  height: 300px;
+}
+.loremIpsumDolor1,
+.manageYourCarnets {
+  position: absolute;
+  top: 126px;
+  left: 24px;
+  display: inline-block;
+  width: 253px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor1 {
+  top: 185px;
+  left: 43px;
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 3.03%;
+  width: 1.11%;
+  top: 26.67%;
+  right: 46.52%;
+  bottom: 70.3%;
+  left: 52.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 9.09%;
+  width: 17.04%;
+  top: 23.67%;
+  right: 40.96%;
+  bottom: 67.25%;
+  left: 42%;
+}
+.listOfTheGymsChild,
+.manageCarnets {
+  position: absolute;
+  top: 111px;
+  left: 237px;
+  width: 300px;
+  height: 300px;
+}
+.listOfTheGymsChild {
+  top: 0;
+  left: 0;
+}
+.listOfThe,
+.loremIpsumDolor2 {
+  position: absolute;
+  top: 128px;
+  left: 55px;
+  display: inline-block;
+  width: 190px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor2 {
+  top: 184px;
+  left: 51px;
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  width: 212px;
+  height: 44px;
+}
+.variousCup {
+  position: absolute;
+  height: 15%;
+  width: 16.67%;
+  top: 23.33%;
+  right: 39.33%;
+  bottom: 61.67%;
+  left: 44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.listOfTheGyms {
+  position: absolute;
+  top: 121px;
+  left: 810px;
+  width: 300px;
+  height: 300px;
+}
+.ideaOfOur {
+  position: absolute;
+  top: 30px;
+  left: 744px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.ideaAboutWebsite {
+  position: relative;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 1920px;
+  height: 458px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

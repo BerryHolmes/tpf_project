@@ -1,0 +1,136 @@
+.top3Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1005px;
+  object-fit: cover;
+}
+.top3Child {
+  position: absolute;
+  top: 156px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.top3Item {
+  position: absolute;
+  top: 152px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.top3Inner {
+  position: absolute;
+  top: 421px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 417px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 686px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gold);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: 659px;
+  height: 223px;
+  cursor: pointer;
+}
+.top3Child1 {
+  position: absolute;
+  top: 682px;
+  left: 635px;
+  border-radius: var(--br-xl) 0 0 var(--br-3xs);
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+.gymNo1,
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  position: absolute;
+  top: 244px;
+  left: 884px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.gymNo2,
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 509px;
+}
+.gymNo3,
+.katowice,
+.katowice1,
+.krakw {
+  top: 774px;
+  left: 878px;
+}
+.katowice,
+.katowice1,
+.krakw {
+  top: 250px;
+  left: 1094px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: left;
+}
+.katowice,
+.katowice1 {
+  top: 516px;
+  left: 1084px;
+}
+.katowice1 {
+  top: 783px;
+}
+.icroundNavigateNext {
+  width: 33px;
+  position: absolute;
+  top: 251px;
+  left: 1230px;
+}
+.icroundNavigateNext1,
+.icroundNavigateNext2 {
+  width: 33px;
+  position: absolute;
+  top: 519px;
+  left: 1230px;
+}
+.icroundNavigateNext2 {
+  top: 784px;
+}
+.top3 {
+  position: relative;
+  width: 1920px;
+  height: 1005px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

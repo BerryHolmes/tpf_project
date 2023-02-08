@@ -1,0 +1,243 @@
+.doWhatBringsJoyBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 1920px;
+  height: 1119px;
+}
+.doWhatBrings {
+  position: absolute;
+  top: 82px;
+  left: 720px;
+  font-size: var(--font-size-6xl);
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.discoverMore,
+.workoutPlans {
+  width: 300px;
+  position: absolute;
+  top: 967px;
+  left: 805px;
+  cursor: pointer;
+}
+.workoutPlans {
+  width: 172px;
+  top: 188px;
+  left: 1391px;
+}
+.gymMembership,
+.gymMembership1,
+.personalTrainer {
+  width: 172px;
+  position: absolute;
+  top: 195px;
+  left: 1016px;
+  cursor: pointer;
+}
+.gymMembership,
+.gymMembership1 {
+  left: 619px;
+}
+.gymMembership1 {
+  top: 188px;
+  left: 237px;
+}
+.discoverMore1,
+.top10 {
+  position: absolute;
+  top: 221px;
+  left: 282px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.discoverMore1 {
+  top: 987px;
+  left: 837px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 231px;
+  height: 30px;
+}
+.gym {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.membership {
+  margin: 0;
+}
+.gymMembership2 {
+  position: absolute;
+  top: 211px;
+  left: 641px;
+}
+.personalTrainer1,
+.workoutPlans1 {
+  position: absolute;
+  top: 211px;
+  left: 1060px;
+}
+.workoutPlans1 {
+  top: 204px;
+  left: 1435px;
+}
+.yogaImgIcon,
+.yogaRec {
+  position: absolute;
+  left: 230px;
+  width: 434px;
+}
+.yogaImgIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.yogaRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.calistheImgIcon,
+.calistheRec {
+  position: absolute;
+  left: 738px;
+  width: 434px;
+}
+.calistheImgIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.calistheRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.cardioRec,
+.cardioRectaIcon {
+  position: absolute;
+  left: 1246px;
+  width: 434px;
+}
+.cardioRectaIcon {
+  top: 355px;
+  border-radius: var(--br-sm);
+  height: 489px;
+  object-fit: cover;
+}
+.cardioRec {
+  top: 693px;
+  border-radius: 0 0 var(--br-2xl) var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 176px;
+}
+.yogaClasses {
+  position: absolute;
+  top: 711px;
+  left: 257px;
+}
+.calisthenicsCourse,
+.cardio,
+.session {
+  position: absolute;
+  top: 712px;
+  left: 758px;
+}
+.cardio,
+.session {
+  left: 1273px;
+}
+.session {
+  top: 711px;
+  left: 514px;
+}
+.membershipIncluded {
+  position: absolute;
+  top: 702px;
+  left: 996px;
+  display: inline-block;
+  width: 169px;
+  height: 28px;
+}
+.membershipIncluded1 {
+  position: absolute;
+  top: 703px;
+  left: 1524px;
+}
+.textCalisthe,
+.textYoga {
+  color: var(--color-gray-300);
+}
+.textYoga {
+  position: absolute;
+  top: 761px;
+  left: 246px;
+  font-size: var(--font-size-2xs);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 329px;
+  height: 52px;
+}
+.textCalisthe {
+  top: 756px;
+  left: 751px;
+  width: 330px;
+  height: 44px;
+}
+.knowMore,
+.knowMore1,
+.knowMore2,
+.textCalisthe,
+.textCardio {
+  position: absolute;
+  font-size: var(--font-size-2xs);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+}
+.textCardio {
+  top: 756px;
+  left: 1259px;
+  color: var(--color-gray-300);
+  width: 352px;
+  height: 44px;
+}
+.knowMore,
+.knowMore1,
+.knowMore2 {
+  text-decoration: underline;
+  width: 115px;
+  cursor: pointer;
+}
+.knowMore {
+  top: 827px;
+  left: 549px;
+  height: 27px;
+}
+.knowMore1,
+.knowMore2 {
+  top: 830px;
+  left: 1058px;
+}
+.knowMore2 {
+  left: 1563px;
+}
+.classesSection {
+  position: relative;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 1920px;
+  height: 1119px;
+  flex-shrink: 0;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

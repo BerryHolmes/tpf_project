@@ -1,0 +1,37 @@
+.trainerChild {
+  position: absolute;
+  top: -3px;
+  left: -12px;
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+}
+.trainerItem {
+  position: absolute;
+  top: 0;
+  left: 255px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  width: 878px;
+  height: 206px;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 19px;
+  left: 291px;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 801px;
+  height: 160px;
+}
+.trainer {
+  position: relative;
+  width: 1133px;
+  height: 206px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

@@ -1,0 +1,77 @@
+.top46Child,
+.top46Inner,
+.top46Item {
+  position: absolute;
+  top: -6px;
+  left: -12px;
+  border-radius: var(--br-xl);
+  width: 1457px;
+  height: 144.24px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.top46Inner,
+.top46Item {
+  top: 136.88px;
+}
+.top46Inner {
+  top: 279.76px;
+}
+.gymNo4,
+.gymNo5 {
+  position: absolute;
+  top: 42.58px;
+  left: 58px;
+  display: inline-block;
+  width: 367.49px;
+  height: 25.88px;
+}
+.gymNo5 {
+  top: 186.27px;
+}
+.gymNo6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.gymNo6Container,
+.katowice,
+.katowice1,
+.krakw {
+  position: absolute;
+  top: 327.69px;
+  left: 58px;
+  display: inline-block;
+  width: 367.49px;
+  height: 25.88px;
+}
+.katowice,
+.katowice1,
+.krakw {
+  top: 50.68px;
+  left: 989.4px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: left;
+  width: 200.05px;
+  height: 18.33px;
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+.katowice,
+.katowice1 {
+  top: 194.1px;
+  left: 967.66px;
+  width: 239.2px;
+}
+.katowice1 {
+  top: 338.06px;
+}
+.top46 {
+  position: relative;
+  width: 1433px;
+  height: 406px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

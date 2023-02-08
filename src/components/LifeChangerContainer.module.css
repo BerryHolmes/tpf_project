@@ -1,0 +1,109 @@
+.mainBackgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1227px;
+  object-fit: cover;
+}
+.youWantTo {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.comeAlong {
+  margin: 0;
+}
+.youWantToContainer {
+  position: absolute;
+  top: 431px;
+  left: 385px;
+  font-weight: 800;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 682px;
+  left: 685px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 550px;
+  height: 47px;
+}
+.discoverButton {
+  width: 214px;
+  position: absolute;
+  top: 825px;
+  left: 854px;
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 0;
+  left: -42.11%;
+  line-height: 102.5%;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.fitnessBunch {
+  position: relative;
+  width: 76px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+  font-weight: 600;
+}
+.home,
+.listOfGyms {
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.aboutUs,
+.listOfGyms {
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menus {
+  width: 417px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.avatarIconLogin {
+  width: 80px;
+  position: relative;
+  cursor: pointer;
+}
+.fitnessBunchParent,
+.menusParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.menusParent {
+  width: 1007px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.fitnessBunchParent {
+  position: absolute;
+  top: 40px;
+  left: 145px;
+  width: 1614px;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-laila);
+}
+.first {
+  position: relative;
+  width: 1920px;
+  height: 1227px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-10xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

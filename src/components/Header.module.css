@@ -1,0 +1,73 @@
+.fitness {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bunch {
+  margin: 0;
+}
+.fitnessBunch1 {
+  position: absolute;
+  top: 0;
+  left: -39.53%;
+  line-height: 102.5%;
+}
+.fitnessBunch {
+  position: relative;
+  width: 77.67px;
+  height: 69px;
+  flex-shrink: 0;
+}
+.home {
+  left: 0;
+  width: 74.61px;
+  cursor: pointer;
+}
+.aboutUs,
+.home,
+.listOfGyms {
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  height: 39.1px;
+}
+.listOfGyms {
+  left: 119.57px;
+  width: 151.26px;
+  cursor: pointer;
+}
+.aboutUs {
+  left: 315.8px;
+  width: 110.38px;
+}
+.menus {
+  position: relative;
+  width: 426.17px;
+  height: 39.1px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.healthiconsuiUserProfileOu {
+  width: 81.75960540771484px;
+  position: relative;
+  cursor: pointer;
+}
+.navMenu {
+  align-self: stretch;
+  height: 162px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-md);
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-laila);
+}
