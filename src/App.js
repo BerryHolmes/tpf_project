@@ -14,8 +14,42 @@ import GYM3KRAKOW from "./pages/GYM3KRAKOW";
 import GYM2KATOWICE from "./pages/GYM2KATOWICE";
 import GYM1KRAKOW from "./pages/GYM1KRAKOW";
 import { useEffect } from "react";
+import { useState } from "react";
+
+import Login from"./pages/Login"
+import Post from "./pages/Post";
+import Navbar from "./components/Navbar";
+import {Navigate } from "react-router-dom";
 
 function App() {
+
+  const [user, setUser] = useState(null);
+  
+  useEffect(() => {
+    const getUser = () => {
+      fetch("http://localhost:5000/auth/login/success", {
+        method: "GET",
+        credentials: "include",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Credentials": true,
+        },
+      })
+        .then((response) => {
+          if (response.status === 200) return response.json();
+          throw new Error("authentication has been failed!");
+        })
+        .then((resObject) => {
+          setUser(resObject.user);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+    getUser();
+  }, []);
+
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
@@ -27,6 +61,8 @@ function App() {
   }, [action, pathname]);
 
   useEffect(() => {
+
+    
     let title = "";
     let metaDescription = "";
 
@@ -43,7 +79,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/frame-6":
+      case "/workout-plans":
         title = "";
         metaDescription = "";
         break;
@@ -51,19 +87,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/frame-4":
+      case "/gym-membership":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-3":
+      case "/gym-3-krakow":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-2":
+      case "/gym-2-katowice":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-1":
+      case "/gym-1-krakow":
         title = "";
         metaDescription = "";
         break;
@@ -84,25 +120,36 @@ function App() {
   }, [pathname]);
 
   return (
+    <div>
+    <Navbar user={user} />
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route
+            path="/login"
+            element={user ? <Navigate to="/" /> : <Login />}
+          />
+          <Route
+            path="/post/:id"
+            element={user ? <Post /> : <Navigate to="/login" />}
+          />
 
       <Route path="/about-us" element={<ABOUTUS />} />
 
       <Route path="/top-10" element={<TOP10 />} />
 
-      <Route path="/frame-6" element={<WORKOUTPLANS />} />
+      <Route path="/workout-plans" element={<WORKOUTPLANS />} />
 
       <Route path="/personal-trainers" element={<PERSONALTRAINERS />} />
 
-      <Route path="/frame-4" element={<GYMMEMBERSHIP />} />
+      <Route path="/gym-membership" element={<GYMMEMBERSHIP />} />
 
-      <Route path="/frame-3" element={<GYM3KRAKOW />} />
+      <Route path="/gym-3-krakow" element={<GYM3KRAKOW />} />
 
-      <Route path="/frame-2" element={<GYM2KATOWICE />} />
+      <Route path="/gym-2-katowice" element={<GYM2KATOWICE />} />
 
-      <Route path="/frame-1" element={<GYM1KRAKOW />} />
+      <Route path="/gym-1-krakow" element={<GYM1KRAKOW />} />
     </Routes>
+    </div>
   );
 }
 export default App;
