@@ -11,18 +11,8 @@
   1.	Analiza dostępnych rozwiązań
 Na obecnym rynku działa sporo aplikacji o tematyce fitness, jednak ciężko doszukać się informacji na temat aplikacji skupiającej wiele klubów fitness z określonej okolicy. W sieci możemy znaleźć liczne aplikacje do zarządzania dieta, cwiczeniami, śledzenia czy też planowania cwiczeń i postępów treningowych.  Można odnaleźć także aplikacje oferujące obsługę dla klubow fitness, a nawet aplikacje zrzeszająca trenerów personalnych, brakuje jednak aplikacji umożliwiającej łatwe szukanie, zarządzanie i przeglądanie klubów fitness. Dlatego też zrealizowanie takiego systemu jest dobrym pomysłem i może okazać się sukcesem na rynku komercyjnym aplikacji internetowych.
 
-2.	Architektura aplikacji
-2.1.	Wzorzec MVC
 
-MVC jest obecnie jednym z najpopularniejszych wzorców projektowych. Jego głównym założeniem jest podział aplikacji na trzy odseparowane od siebie warstwy:
-
--	Model (Dane) 
--	View (Widok)
--	Controller (Kontroler)
-
-Poniższy schemat obrazuje działanie poszczególnych elementów wzorca MVC. Obrazuje on również kierunek i sposób komunikacji pomiędzy kolejnymi warstwami.
-
-3.	Wykorzystane technologie i narzędzia
+2.	Wykorzystane technologie i narzędzia
 TECHNOLOGIE:
 Front-end:
 ReactJS -
@@ -39,10 +29,10 @@ NARZEDZIA:
 -Figma (projekt UX/UI) - edytor grafiki wektorowej do prototypowania interfejsu użytkownika.
 
  
-4.	Autoryzacja użytkownika
+3.	Autoryzacja użytkownika
 Do autoryzacji użytkownika został użyty zewnętrzny provider w postaci Google oraz Facebooka. 
   
-5.	Funkcjonalności strony internetowej
+4.	Funkcjonalności strony internetowej
 
 Strona internetowa pozwala w prosty sposób zorientować się w rankingu okolicznych sieci klubów fitness. Kluby ten a postawie opinii tworzą listę TOP 10, z której można skorzystać w celu wyboru odpowiedniej siłowni. 
 Na stronie głównej można także znaleźć ścisłą czołówkę najbardziej polecaną, przez użytkowników. 
